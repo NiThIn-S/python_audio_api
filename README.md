@@ -40,6 +40,10 @@ LocalHost Port number: 9000
             ```http://localhost:9000/audiobook/create?name=<name>&id=<id>&duration=<duration>&uptime=<uptime>&author=<author>&narrator=<narrator>```
       - Create Podcast:
             ```http://localhost:9000/podcast/create?name=<name>&id=<id>&duration=<duration>&uptime=<uptime>&host=<host>&participants=<participant1>&participants=<participant2>```
+            
+  - Get:
+      - Get All Record song/Audiobook/Podcast:```http://localhost:9000/<audioFileType>```
+      - Get any one Record song/Audiobook/Podcast:```http://localhost:9000/<audioFileType>/<audioFileId>/get```
 
   - Update:
       - Update Song : 
@@ -51,8 +55,4 @@ LocalHost Port number: 9000
   
   - Delete:
       - Delete song/Audiobook/Podcast: ```http://localhost:9000/<audioFileType>/<audioFileId>/delete```
-
-  - Get:
-      - Get All Record song/Audiobook/Podcast:```http://localhost:9000/<audioFileType>```
-      - Get any one Record song/Audiobook/Podcast:```http://localhost:9000/<audioFileType>/<audioFileId>/get```
 
