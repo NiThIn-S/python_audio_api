@@ -1,0 +1,44 @@
+﻿Request Url Format
+
+
+Create:
+Create Song : 
+http://localhost:9000/song/create?name=<name>&id=<id>&duration=<duration>&uptime=<uptime>
+
+
+Create AudioBook : 
+http://localhost:9000/audiobook/create?name=<name>&id=<id>&duration=<duration>&uptime=<uptime>&author=<author>&narrator=<narrator>
+
+
+Create Podcast:
+http://localhost:9000/podcast/create?name=<name>&id=<id>&duration=<duration>&uptime=<uptime>&host=<host>&participants=<participant1>&participants=<participant2>
+
+
+
+
+Update:
+Update Song : 
+http://localhost:9000/song/<audioFileId>/update?name=<name>&duration=<duration>&uptime=<uptime>
+
+
+Update Audiobook:
+http://localhost:9000/audiobook/<audioFileId>/update?name=<name>&duration=<duration>&uptime=<uptime>&author=<author>&narrator=<narrator>
+
+
+Update Podcast:
+http://localhost:9000/podcast/<audioFileId>/update?name=<name>&duration=<duration>&uptime=<uptime>&host=<host>&participants=<participant1>&participants=<participant2>
+
+
+ 
+Delete:
+Delete song/Audiobook/Podcast:
+http://localhost:9000/<audioFileType>/<audioFileId>/delete
+
+
+Get:
+Get All Record song/Audiobook/Podcast:
+http://localhost:9000/<audioFileType>
+
+
+Get any one Record song/Audiobook/Podcast:
+http://localhost:9000/<audioFileType>/<audioFileId>/get

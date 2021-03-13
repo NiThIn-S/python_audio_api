@@ -1,0 +1,34 @@
+﻿Song:
+	Create:
+http://localhost:9000/song/create?name=sty&id=3&duration=45&uptime=2021-03-13
+	Get:
+http://localhost:9000/song
+http://localhost:9000/song/3/get
+	Update:
+http://localhost:9000/song/3/update?name=shy&duration=40&uptime=2021-03-15
+	Delete:
+http://localhost:9000/song/3/delete
+
+
+Audiobook:
+	Create:
+http://localhost:9000/audiobook/create?name=sty&id=3&duration=45&uptime=2021-03-13&author=auth1&narrator=nar1
+	Get:
+http://localhost:9000/audiobook
+http://localhost:9000/audiobook/3/get
+	Update:
+http://localhost:9000/audiobook/3/update?name=shy&duration=40&uptime=2021-03-15&author=auth1&narrator=nar1
+	Delete:
+http://localhost:9000/audiobook/3/delete
+
+
+Podcast:
+	Create:
+http://localhost:9000/podcast/create?name=sty&id=2&duration=45&uptime=2021-03-13&host=hst1&participants=nar1&participants=w2
+	Get:
+http://localhost:9000/podcast
+http://localhost:9000/podcast/2/get
+	Update:
+http://localhost:9000/podcast/2/update?name=sty&duration=45&uptime=2021-03-15&host=hst2&participants=nar2&participants=narr3
+	Delete:
+http://localhost:9000/podcast/2/delete
